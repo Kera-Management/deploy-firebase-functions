@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd functions; npm install
+npm install
 
 if [ -z "${FIREBASE_TOKEN}" ]; then
     echo "FIREBASE_TOKEN is missing"
